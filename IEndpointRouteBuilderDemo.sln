@@ -5,12 +5,14 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEndpointRouteBuilderDemo-DoesntCompile", "IEndpointRouteBuilderDemo\IEndpointRouteBuilderDemo-DoesntCompile.csproj", "{9A566CD6-A042-47FC-9745-06AAE9D62E30}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEndpointRouteBuilderDemo-Compiles", "IEndpointRouteBuilderDemo-Compiles\IEndpointRouteBuilderDemo-Compiles.csproj", "{1C36E7FD-DF4F-490E-89FD-5F615E79A177}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEndpointRouteBuilderDemo-Compiles-Dummy", "IEndpointRouteBuilderDemo-Compiles\IEndpointRouteBuilderDemo-Compiles-Dummy.csproj", "{1C36E7FD-DF4F-490E-89FD-5F615E79A177}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{D0F3344D-A077-489B-904B-CE825298ADEB}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEndpointRouteBuilder-Compiles", "IEndpointRouteBuilder-Compiles\IEndpointRouteBuilder-Compiles.csproj", "{3D0A2D44-C840-4633-BFEF-60CC081CDC0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{1C36E7FD-DF4F-490E-89FD-5F615E79A177}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C36E7FD-DF4F-490E-89FD-5F615E79A177}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C36E7FD-DF4F-490E-89FD-5F615E79A177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0A2D44-C840-4633-BFEF-60CC081CDC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0A2D44-C840-4633-BFEF-60CC081CDC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0A2D44-C840-4633-BFEF-60CC081CDC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0A2D44-C840-4633-BFEF-60CC081CDC0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -49,3 +49,21 @@ namespace IEndpointRouteBuilderDemo
 ```
 
 **So, how can `IEndpointRouteBuilder` be referenecd in a class library without needing a `DummyMain.cs`?**
+
+# Solution
+
+The .csproj file should reference SDK `Microsoft.NET.SDK` (instead of `Microsoft.NET.SDK.Web`) and Shared Framework `Microsoft.AspNetCore.App`.
+
+```
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+</Project>
+```
