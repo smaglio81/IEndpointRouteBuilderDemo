@@ -1,5 +1,7 @@
 # IEndpointRouteBuilder Problem Demo
 
+This repository is for [AspNetCore Issue #19481 (Reference IEndpointRouteBuilder in a class library (ASP.NET Core 3.1))](https://github.com/dotnet/aspnetcore/issues/19481).
+
 As reported in [AspNetCore Issue #16638 (Cannot find the AspNetCore Nuget packages for 3.0 (specifically routing))](https://github.com/dotnet/aspnetcore/issues/16638),
 it seems like the only way to reference `IEndpointRouteBuilder` from ASP.NET Core 3.1 (SDK 3.1.102) is to setup a project with an
 SDK of `Microsoft.NET.SDK.Web` and a `TargetFramework` of `netcoreapp3.1` (example .csproj):
